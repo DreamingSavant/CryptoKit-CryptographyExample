@@ -13,6 +13,10 @@
 		C682A08F2B87C6E9004390F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C682A08D2B87C6E9004390F9 /* Main.storyboard */; };
 		C682A0912B87C6ED004390F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C682A0902B87C6ED004390F9 /* Assets.xcassets */; };
 		C682A0942B87C6ED004390F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C682A0922B87C6ED004390F9 /* LaunchScreen.storyboard */; };
+		C682A09C2B87CCA0004390F9 /* HashingFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C682A09B2B87CCA0004390F9 /* HashingFunctions.swift */; };
+		C682A09E2B87CE95004390F9 /* SymmetricKeyEncryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = C682A09D2B87CE94004390F9 /* SymmetricKeyEncryption.swift */; };
+		C682A0A02B87D3A7004390F9 /* AsymmetricKeyEncryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = C682A09F2B87D3A7004390F9 /* AsymmetricKeyEncryption.swift */; };
+		C682A0A22B87DF58004390F9 /* DigitalSignaturesEncryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = C682A0A12B87DF58004390F9 /* DigitalSignaturesEncryption.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		C682A0902B87C6ED004390F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C682A0932B87C6ED004390F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C682A0952B87C6ED004390F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C682A09B2B87CCA0004390F9 /* HashingFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashingFunctions.swift; sourceTree = "<group>"; };
+		C682A09D2B87CE94004390F9 /* SymmetricKeyEncryption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymmetricKeyEncryption.swift; sourceTree = "<group>"; };
+		C682A09F2B87D3A7004390F9 /* AsymmetricKeyEncryption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsymmetricKeyEncryption.swift; sourceTree = "<group>"; };
+		C682A0A12B87DF58004390F9 /* DigitalSignaturesEncryption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalSignaturesEncryption.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				C682A0902B87C6ED004390F9 /* Assets.xcassets */,
 				C682A0922B87C6ED004390F9 /* LaunchScreen.storyboard */,
 				C682A0952B87C6ED004390F9 /* Info.plist */,
+				C682A09B2B87CCA0004390F9 /* HashingFunctions.swift */,
+				C682A09D2B87CE94004390F9 /* SymmetricKeyEncryption.swift */,
+				C682A09F2B87D3A7004390F9 /* AsymmetricKeyEncryption.swift */,
+				C682A0A12B87DF58004390F9 /* DigitalSignaturesEncryption.swift */,
 			);
 			path = CryptoKitExample;
 			sourceTree = "<group>";
@@ -138,8 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C682A09E2B87CE95004390F9 /* SymmetricKeyEncryption.swift in Sources */,
+				C682A09C2B87CCA0004390F9 /* HashingFunctions.swift in Sources */,
+				C682A0A02B87D3A7004390F9 /* AsymmetricKeyEncryption.swift in Sources */,
 				C682A08C2B87C6E9004390F9 /* ViewController.swift in Sources */,
 				C682A0882B87C6E9004390F9 /* AppDelegate.swift in Sources */,
+				C682A0A22B87DF58004390F9 /* DigitalSignaturesEncryption.swift in Sources */,
 				C682A08A2B87C6E9004390F9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
